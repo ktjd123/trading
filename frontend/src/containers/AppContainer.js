@@ -16,7 +16,7 @@ class AppContainer extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-  testString: state.test.get('string')
+  testString: state.test.string
 })
 
 const mapDispatchToProps = (dispatch) => ({
