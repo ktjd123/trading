@@ -27,7 +27,7 @@ const Main = ({ testString, reducerTest }) => {
                     <li>express session</li>
                     <li>mongoose</li>
                     <li>bcrypt</li>
-                    <li>예정: multer</li>
+                    <li>joi</li>
                     <li>---FRONTEND---</li>
                     <li>React</li>
                     <li>Redux</li>
@@ -35,7 +35,6 @@ const Main = ({ testString, reducerTest }) => {
                     <li>react-router</li>
                     <li>redux-thunk</li>
                     <li>axios</li>
-                    <li>immutable</li>
                 </ul>
             </div>
             <Link to='/about'>About</Link>
