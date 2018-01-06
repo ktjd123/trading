@@ -22,13 +22,18 @@ import './index.css'
 import {AppContainer, About} from 'containers'
 //Example import end
 
+import {ToastContainer} from 'react-toastify'
+
 const store = createStore(reducers, applyMiddleware(thunk));
 
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
             <div>
-
+                <ToastContainer
+                    autoClose={3000}
+                    position="bottom-center"
+                />
                 <Route exact path="/" component={AppContainer} />
                 
                 <Switch>

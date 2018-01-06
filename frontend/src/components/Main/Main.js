@@ -35,6 +35,7 @@ const Main = ({ testString, reducerTest }) => {
                     <li>react-router</li>
                     <li>redux-thunk</li>
                     <li>axios</li>
+                    <li>react-toastify</li>
                 </ul>
             </div>
             <Link to='/about'>About</Link>
