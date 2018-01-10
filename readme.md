@@ -1,4 +1,4 @@
-this is theSeed (react, express, mongoose boilerplate)
+this is trading (react, express, mongoose boilerplate)
 
 development
 
