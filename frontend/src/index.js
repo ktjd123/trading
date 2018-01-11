@@ -19,7 +19,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './index.css'
 
 //Example import
-import {AppContainer, About} from 'containers'
+import {AppContainer} from 'containers'
 //Example import end
 
 import {ToastContainer} from 'react-toastify'
@@ -37,10 +37,7 @@ ReactDOM.render(
                 <Route exact path="/" component={AppContainer} />
                 
                 <Switch>
-                    <Route path="/about/:name" component={About} />
-                    <Route path="/about" component={About} />
                 </Switch>
-                
             </div>
         </BrowserRouter>
     </Provider>
